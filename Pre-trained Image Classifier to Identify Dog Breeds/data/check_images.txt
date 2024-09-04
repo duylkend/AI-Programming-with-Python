@@ -1,0 +1,20 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: The three model architectures did not classify the breed of dog in Dog_01.jpg (a golden doodle) as the same breed. However, all of them classified it as either a poodle or a miniature poodle, which is quite close to a golden doodle.
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: The three model architectures classified the breed of dog in Dog_01.jpg to be the same breed of dog as they classified Dog_02.jpg. There were no differences in the classifications for Dog_01.jpg and Dog_02.jpg within each architecture.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: The three model architectures correctly classified Animal_Name_01 (Peregrine_Falcon_01.jpg) and Object_Name_01.jpg (Doctor_Who_01.jpg) as not being dogs. There were no misclassifications for these images.
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: All three model architectures performed well, but the VGG model architecture stands out as it classified the dog in Dog_01.jpg as a poodle rather than a miniature poodle, which is closer to the actual breed, a golden doodle. This slight distinction makes the VGG model slightly more accurate in this particular case.
